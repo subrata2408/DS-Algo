@@ -56,19 +56,18 @@ public class IsPrime {
         // E.g. 'Scanner' for input & 'System.out' for output
 
         try (Scanner input = new Scanner(System.in)) {
-			int number = input.nextInt();
-
-			System.out.println(isPrime(number));
-		}
+		int number = input.nextInt();
+		System.out.println(isPrime(number));
+	}
         
     }
 
     public static String isPrime(int number){
-        if(number<2){
+        if(number < 2){
             return "NO";
         }
 
-        for(int i=2; i*i<=number; i++){
+        for(int i = 2; i*i <= number; i++){
             if(number%i == 0){
                 return "NO";
             }
