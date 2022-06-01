@@ -33,7 +33,7 @@
 // 1001 is not a perfect square.
 package basicProblems;
 
-public class Solution {
+public class CalculateSquareRoot {
     public int solve(int A) {
         if (A == 0 || A == 1) {
             return A;
