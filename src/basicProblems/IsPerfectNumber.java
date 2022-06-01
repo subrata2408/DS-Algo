@@ -49,6 +49,8 @@
 // Explanation 2:
 //  For A = 3, the answer is "NO" as sum of its proper divisors = 1, is not equal to 3.
 
+package basicProblems;
+
 import java.lang.*;
 import java.util.*;
 
